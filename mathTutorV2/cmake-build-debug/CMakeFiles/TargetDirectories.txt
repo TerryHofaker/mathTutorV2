@@ -1,3 +1,0 @@
-C:/Users/tehofa01/OneDrive - Wayne State College/C++ programming class/assignments/New folder/cmake-build-debug/CMakeFiles/new_target.dir
-C:/Users/tehofa01/OneDrive - Wayne State College/C++ programming class/assignments/New folder/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/tehofa01/OneDrive - Wayne State College/C++ programming class/assignments/New folder/cmake-build-debug/CMakeFiles/rebuild_cache.dir
