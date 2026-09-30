@@ -32,7 +32,7 @@ int main() {
     srand(time(0));
 
     //Main title with a welcome
-    cout << "**********************************************************" << endl;
+    cout << "**************************************************************************" << endl;
     cout << "    __  __       _   _       _____      _                  " << endl;
     cout << "   |  \\/  | __ _| |_| |__   |_   _|   _| |_ ___  _ __     "<< endl;
     cout << "   | |\\/| |/ _` | __| '_ \\    | || | | | __/ _ \\| '__| " << endl;
@@ -91,7 +91,7 @@ int main() {
 
         //Multiplication
         case 3:
-            correctAnswer = leftNum
+            correctAnswer = leftNum;
             leftNum *= rightNum;
             mathSymbol = '*';
             break;
