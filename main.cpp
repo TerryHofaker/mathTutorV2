@@ -10,6 +10,9 @@ Description...:A simple math tutor for young children. In version 1 it displays 
 
 
 #include <iostream>
+#include <string>
+#include <cstdlib>
+#include <ctime>
 
 using namespace std;
 
@@ -17,9 +20,16 @@ int main() {
 
     //define the variables
     string userName = "unknown";
-    int leftNum = 2;
-    int rightNum = 3;
+    int leftNum = 0;
+    int rightNum = 0;
     int userAnswer = 0;
+    int mathType = 0;
+    int correctAnswer = 0;
+    int temp = 0;
+    char mathSymbol = '?'
+
+    //seed the random number generator
+    srand(time(0));
 
     //Main title with a welcome
     cout << "**********************************************************" << endl;
@@ -49,6 +59,11 @@ int main() {
     //Welcome the user
     cout << "Welcome " << userName << "!" << endl;
     cout << endl;
+
+    //Generate random numbers
+    leftNum = rand() % 10 + 1;
+    rightNum = rand() % 10 + 1;
+    mathType = rand() % 4 + 1;
 
     //Ask math question
     cout << "What is " << leftNum << " + " << rightNum << "? " ;
