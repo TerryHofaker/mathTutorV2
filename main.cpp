@@ -68,6 +68,42 @@ int main() {
     rightNum = rand() % 10 + 1;
     mathType = rand() % 4 + 1;
 
+    switch (mathType) {
+
+        //Addition
+        case 1:
+            correctAnswer = leftNum + rightNum;
+            mathSymbol = '+';
+            break;
+
+        //Subtraction
+        case 2:
+            if (leftNum < rightNum) {
+                temp = leftNum;
+                leftNum = rightNum;
+                rightNum = temp;
+
+            }
+
+            correctAnswer = leftNum - rightNum;
+            mathSymbol = '-';
+            break;
+
+        //Multiplication
+        case 3:
+            correctAnswer = leftNum
+            leftNum *= rightNum;
+            mathSymbol = '*';
+            break;
+
+
+
+
+
+
+
+    }
+
     //Ask math question
     cout << "What is " << leftNum << " + " << rightNum << "? " ;
     cin >> userAnswer ;
