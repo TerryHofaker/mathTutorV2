@@ -18,7 +18,7 @@ using namespace std;
 
 int main() {
 
-    //define the variables
+    //define and initialize the variables
     string userName = "unknown";
     int leftNum = 0;
     int rightNum = 0;
@@ -26,7 +26,7 @@ int main() {
     int mathType = 0;
     int correctAnswer = 0;
     int temp = 0;
-    char mathSymbol = '?'
+    char mathSymbol = '?';
 
     //seed the random number generator
     srand(time(0));
@@ -38,9 +38,9 @@ int main() {
     cout << "   | |\\/| |/ _` | __| '_ \\    | || | | | __/ _ \\| '__| " << endl;
     cout << "   | |  | | (_| | |_| | | |   | || |_| | || (_) | |    " << endl;
     cout << "   |_|  |_|\\__,_|\\__|_| |_|   |_| \\__,_|\\__\\___/|_|    " << endl;
-    cout << "**********************************************************" << endl;
-    cout << "#         Welcome to the Super Simple Math Tutor         #" << endl;
-    cout << "**********************************************************" << endl;
+    cout << "**************************************************************************" << endl;
+    cout << "#         Welcome to the Super Simple Math Tutor                         #" << endl;
+    cout << "**************************************************************************" << endl;
 
     // States silly math jokes like facts
     cout << endl;
@@ -50,6 +50,9 @@ int main() {
     cout << "       + A math teacher is like a pirate they are looking for x" << endl;
     cout << "       + A math book is always crying because it has so many problems" << endl;
     cout << "       + The first three digits of pi spell pie when looked at backwords " << endl;
+    cout << endl;
+    cout << "**************************************************************************" << endl;
+    cout << endl;
 
     //Get the user's name
     cout << "What is your name? ";
