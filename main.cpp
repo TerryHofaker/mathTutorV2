@@ -79,7 +79,7 @@ int main() {
             mathSymbol = '+';
             break;
 
-        //Subtraction
+        //Subtraction avoids negative numbers
         case 2:
             if (leftNum < rightNum) {
                 temp = leftNum;
@@ -91,17 +91,17 @@ int main() {
             mathSymbol = '-';
             break;
 
-        //Division
+        //Multiplication
         case 3:
-            correctAnswer = leftNum;
-            leftNum *= rightNum;
-            mathSymbol = '/';
+          correctAnswer = leftNum * rightNum;
+            mathSymbol = '*';
             break;
 
-        //Multiplication
+        //Division avoids fractions
         case 4:
-            correctAnswer = leftNum * rightNum;
-            mathSymbol = '*';
+             correctAnswer = leftNum;
+            leftNum *= rightNum;
+            mathSymbol = '/';
             break;
 
         //Something went wrong
@@ -115,7 +115,7 @@ int main() {
     // Ask the user a question
     cout << userName << ", what is" << " " << leftNum << " " << mathSymbol << " " << rightNum << " = ?" << endl;
     cout << endl;
-
+    // gets users input
     cin >> userAnswer;
     cout << endl;
 
@@ -129,7 +129,7 @@ int main() {
         cout << "Wrong answer! The correct answer was" << correctAnswer << " " << endl;
     }
     cout << endl;
-
+    // closes the program
     cout << "Thanks for playing!" << endl;
     cout << "This is all the program does for now " << endl;
     cout << "Check back for more updates." << endl;
