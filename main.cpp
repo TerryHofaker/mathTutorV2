@@ -89,11 +89,11 @@ int main() {
             mathSymbol = '-';
             break;
 
-        //Multiplication
+        //Division
         case 3:
             correctAnswer = leftNum;
             leftNum *= rightNum;
-            mathSymbol = '*';
+            mathSymbol = '/';
             break;
 
         //Division
