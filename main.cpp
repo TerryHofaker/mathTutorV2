@@ -17,7 +17,6 @@ Description...:A simple math tutor for young children. In version 1 it displays 
 using namespace std;
 
 int main() {
-
     //define and initialize the variables
     string userName = "unknown";
     int leftNum = 0;
@@ -34,7 +33,7 @@ int main() {
     //Main title with a welcome
     cout << "**************************************************************************" << endl;
     cout << "    __  __       _   _       _____      _                  " << endl;
-    cout << "   |  \\/  | __ _| |_| |__   |_   _|   _| |_ ___  _ __     "<< endl;
+    cout << "   |  \\/  | __ _| |_| |__   |_   _|   _| |_ ___  _ __     " << endl;
     cout << "   | |\\/| |/ _` | __| '_ \\    | || | | | __/ _ \\| '__| " << endl;
     cout << "   | |  | | (_| | |_| | | |   | || |_| | || (_) | |    " << endl;
     cout << "   |_|  |_|\\__,_|\\__|_| |_|   |_| \\__,_|\\__\\___/|_|    " << endl;
@@ -56,7 +55,7 @@ int main() {
 
     //Get the user's name
     cout << "What is your name? ";
-    cin >> userName ;
+    cin >> userName;
     cout << endl;
 
     //Welcome the user
@@ -69,7 +68,6 @@ int main() {
     mathType = rand() % 4 + 1;
 
     switch (mathType) {
-
         //Addition
         case 1:
             correctAnswer = leftNum + rightNum;
@@ -82,7 +80,6 @@ int main() {
                 temp = leftNum;
                 leftNum = rightNum;
                 rightNum = temp;
-
             }
 
             correctAnswer = leftNum - rightNum;
@@ -96,34 +93,31 @@ int main() {
             mathSymbol = '/';
             break;
 
-        //Division
+        //Multiplication
         case 4:
-            if (rightNum == 0) {
-                correctAnswer = leftNum / rightNum;
-                mathSymbol = '/';
-                break;
-            }
+            correctAnswer = leftNum * rightNum;
+            mathSymbol = '*';
+            break;
 
-
-
-
+        default:
+            cout << "Invalid question type: " << mathType << endl;
+            cout << "program ended with an error -1" << endl;
+            cout << "Please report this error" << endl;
+            return 1;
     }
 
-    //Ask math question
-    cout << "What is " << leftNum << " + " << rightNum << "? " ;
-    cin >> userAnswer ;
-    cout << endl;
-
-    //State that the program doesn't do anything more yet ends program
-    cout << "Sorry, this is all the program does for the moment." << endl;
-    cout << "Version 2 is coming soon..." << endl;
-    cout << "End of program. " << endl;
-
-
-
-
-
-
+    // Ask the user a question
+    cout << userName << ", what is" << leftNum << mathType << rightNum << "?";
+    cin >> userAnswer;
+    if (userAnswer == correctAnswer) {
+        // Code to use if the answer is correct
+        cout << "good job!" << endl;
+    } else {
+        // Code to use if the answer is wrong
+        cout << "wrong answer!" << endl;
+    }
+    cout << "Thanks for playing!" << endl;
+    cout << "This is all the program does" << endl;
 
     return 0;
 }
