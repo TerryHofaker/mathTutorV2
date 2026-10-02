@@ -96,8 +96,13 @@ int main() {
             mathSymbol = '*';
             break;
 
-
-
+        //Division
+        case 4:
+            if (rightNum == 0) {
+                correctAnswer = leftNum / rightNum;
+                mathSymbol = '/';
+                break;
+            }
 
 
 
