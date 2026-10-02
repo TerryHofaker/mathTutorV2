@@ -53,7 +53,7 @@ The program:
 
 
 ## Console Output Testing Examples 
-# If the input answer is correct
+### If the input answer is correct
 ```
 **************************************************************************
     __  __       _   _       _____      _
@@ -91,7 +91,7 @@ Thanks for playing!
 This is all the program does for now
 Check back for more updates.
 ```
-#If the input answer is incorrect
+### If the input answer is incorrect
 ~~~
 **************************************************************************
     __  __       _   _       _____      _
@@ -129,7 +129,7 @@ This is all the program does for now
 Check back for more updates.
 
 ~~~
-#If invalid variable shows up for the mathType  
+### If invalid variable shows up for the mathType  
 ~~~
 **************************************************************************
     __  __       _   _       _____      _
