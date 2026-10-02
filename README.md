@@ -1,6 +1,6 @@
 [README.md](https://github.com/user-attachments/files/32753647/README.md)
  
-# Math Tutor V1
+# Math Tutor V2
 
 <b>Table of Content</b>
 - [Summary](#summary)
@@ -21,9 +21,13 @@ The program:
 
 -Welcomes the user to the math tutor
 
--Gives the user a simple math question
+-Gives the user a simple random math question
 
 -Gets the user's answer
+
+-Check the users answer 
+
+-Says if they are wrong or right
 
 -Says goodbye to the user
 
@@ -31,9 +35,9 @@ The program:
 ## Maintainers
 [@TerryHofaker](https://github.com/TerryHofaker) Terry Hofaker  
 
-[@daniellenicole418](https://github.com/daniellenicole418) Danielle Gillotte
+[@daniellenicole418](https://github.com/daniellenicole418) 
 
-[@clamski23](https://github.com/clamski23) Charlie Lamski
+[@clamski23](https://github.com/clamski23) 
 
 
 ## New Concepts Used
@@ -43,40 +47,50 @@ The program:
 - Cin & Cout
 - User-friendly interface
 - Basic math operations
+- switch
+- srand(time(0))
+- if & else 
 
 
 ## Console Output Testing Example
 
 ```
-************************************************************
+"C:\Users\TY\Pictures\Screenshots\CLion Project\MAthTutorV2\cmake-build-debug\MAthTutorV2.exe"
+**************************************************************************
+    __  __       _   _       _____      _
+   |  \/  | __ _| |_| |__   |_   _|   _| |_ ___  _ __
+   | |\/| |/ _` | __| '_ \    | || | | | __/ _ \| '__|
+   | |  | | (_| | |_| | | |   | || |_| | || (_) | |
+   |_|  |_|\__,_|\__|_| |_|   |_| \__,_|\__\___/|_|
+**************************************************************************
+#         Welcome to the Super Simple Math Tutor                         #
+**************************************************************************
 
-       __  __       _   _       _____      _
-      |  \/  | __ _| |_| |__   |_   _|   _| |_ ___  _ __
-      | |\/| |/ _` | __| '_ \    | || | | | __/ _ \| '__|
-      | |  | | (_| | |_| | | |   | || |_| | || (_) | |
-      |_|  |_|\__,_|\__|_| |_|   |_| \__,_|\__\___/|_|
+   Fun Silly Math Facts:
 
-************************************************************
-#            Welcome to the Super Simple Math Tutor        #
-************************************************************
+       + A math Teachers favorite dessert is pie
+       + A math teacher is like a pirate they are looking for x
+       + A math book is always crying because it has so many problems
+       + The first three digits of pi spell pie when looked at backwords
 
-        Fun Silly Math Facts:
+**************************************************************************
 
-   * A math teachers favorite dessert is pie
-   * A math teacher is like a pirate they are looking for x
-   * A math book is always crying because it has so many problems
-   * The first three digits of pi spell pie when looked at backwards
+What is your name?Terry
 
-************************************************************
 
-What is your name? Charlie
-Welcome Charlie to the Super Simple Math Tutor!
+Welcome Terry!
 
-What does 2 + 3 = 5
+Terry, what is 6 + 1 = ?
 
-Sorry, this is all the program does for the moment.
-Version 2 is coming soon...
-End of program.
+7
+
+
+Terry,that is correct!
+Good job!
+
+Thanks for playing!
+This is all the program does for now
+Check back for more updates.
 ```
 
 [Back to Top](#math-tutor-v1)
