@@ -126,7 +126,7 @@ int main() {
         cout << "Good job!" << endl;
     } else {
         // Code to use if the answer is wrong
-        cout << "Wrong answer! The correct answer was" << correctAnswer << " " << endl;
+        cout << "Wrong answer! The correct answer was" << " " << correctAnswer << endl;
     }
     cout << endl;
     // closes the program
