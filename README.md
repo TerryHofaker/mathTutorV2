@@ -55,7 +55,6 @@ The program:
 ## Console Output Testing Examples 
 # If the input answer is correct
 ```
-"C:\Users\TY\Pictures\Screenshots\CLion Project\MAthTutorV2\cmake-build-debug\MAthTutorV2.exe"
 **************************************************************************
     __  __       _   _       _____      _
    |  \/  | __ _| |_| |__   |_   _|   _| |_ ___  _ __
@@ -93,6 +92,71 @@ This is all the program does for now
 Check back for more updates.
 ```
 #If the input answer is incorrect
+~~~
+**************************************************************************
+    __  __       _   _       _____      _
+   |  \/  | __ _| |_| |__   |_   _|   _| |_ ___  _ __
+   | |\/| |/ _` | __| '_ \    | || | | | __/ _ \| '__|
+   | |  | | (_| | |_| | | |   | || |_| | || (_) | |
+   |_|  |_|\__,_|\__|_| |_|   |_| \__,_|\__\___/|_|
+**************************************************************************
+#         Welcome to the Super Simple Math Tutor                         #
+**************************************************************************
 
-#If invalid variable shows up for the mathSymbol  
+   Fun Silly Math Facts:
+
+       + A math Teachers favorite dessert is pie
+       + A math teacher is like a pirate they are looking for x
+       + A math book is always crying because it has so many problems
+       + The first three digits of pi spell pie when looked at backwords
+
+**************************************************************************
+
+What is your name?Terry
+
+
+Welcome Terry!
+
+Terry, what is 3 - 1 = ?
+
+4
+
+
+Wrong answer! The correct answer was 2
+
+Thanks for playing!
+This is all the program does for now
+Check back for more updates.
+
+~~~
+#If invalid variable shows up for the mathType  
+~~~
+**************************************************************************
+    __  __       _   _       _____      _
+   |  \/  | __ _| |_| |__   |_   _|   _| |_ ___  _ __
+   | |\/| |/ _` | __| '_ \    | || | | | __/ _ \| '__|
+   | |  | | (_| | |_| | | |   | || |_| | || (_) | |
+   |_|  |_|\__,_|\__|_| |_|   |_| \__,_|\__\___/|_|
+**************************************************************************
+#         Welcome to the Super Simple Math Tutor                         #
+**************************************************************************
+
+   Fun Silly Math Facts:
+
+       + A math Teachers favorite dessert is pie
+       + A math teacher is like a pirate they are looking for x
+       + A math book is always crying because it has so many problems
+       + The first three digits of pi spell pie when looked at backwords
+
+**************************************************************************
+
+What is your name? Ron
+
+
+Welcome Ron!
+
+Invalid question type: 5
+Program ended with an error -1
+Please report this error to Terry Hofaker
+~~~
 [Back to Top](#math-tutor-v1)
