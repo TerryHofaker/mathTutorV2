@@ -35,9 +35,9 @@ The program:
 ## Maintainers
 [@TerryHofaker](https://github.com/TerryHofaker) Terry Hofaker  
 
-[@daniellenicole418](https://github.com/daniellenicole418) 
+[@carmelaegbuonu](https://github.com/carmelaegbuonu) Carmela Egbuonu 
 
-[@clamski23](https://github.com/clamski23) 
+[@mysticalty8-dot ](https://github.com/mysticalty8-dot) Tiquan Palmer 
 
 
 ## New Concepts Used
