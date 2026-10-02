@@ -52,8 +52,8 @@ The program:
 - if & else 
 
 
-## Console Output Testing Example
-
+## Console Output Testing Examples 
+# If the input answer is correct
 ```
 "C:\Users\TY\Pictures\Screenshots\CLion Project\MAthTutorV2\cmake-build-debug\MAthTutorV2.exe"
 **************************************************************************
@@ -92,5 +92,7 @@ Thanks for playing!
 This is all the program does for now
 Check back for more updates.
 ```
+#If the input answer is incorrect
 
+#If invalid variable shows up for the mathSymbol  
 [Back to Top](#math-tutor-v1)
