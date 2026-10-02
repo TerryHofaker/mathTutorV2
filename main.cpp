@@ -1,11 +1,16 @@
 /*********************************************************************************************
-Program.......:MathTutorV2
-Programmers...:Terry Hofaker, Danielle Nicole, Charlie Lamski
-Date..........:2026.09.13
+Program..........:MathTutorV2
+Programmers......:Terry Hofaker, Tiquan Palmer, Carmela Egbuonu
+Date.............:2026.09.13
+Course Section...:Section 1- 9:00am
+Version..........:2
 GitHub Report.:https://github.com/TerryHofaker/mathTutorV2
-Description...:A simple math tutor for young children. In version 1 it displays the programs
-               intro and silly math facts, gets the user's name, welcomes the user, asks a
-               question and gets users input, closes the program.
+Description...:A simple math tutor for young children. In version 2, the program displays the
+               introduction and silly math facts, get the user's name, welcomes the user,
+               generates two random numbers and randomly select a math operation (addition,
+               subtraction, multiplication and divison). It then asks the user a math question,
+               gets the user's answer, checks whether the answer is correct, displays the result
+               and closes the program.
 **********************************************************************************************/
 
 
@@ -54,7 +59,7 @@ int main() {
     cout << endl;
 
     //Get the user's name
-    cout << "What is your name? ";
+    cout << "What is your name? " << " ";
     cin >> userName;
     cout << endl;
 
@@ -99,25 +104,35 @@ int main() {
             mathSymbol = '*';
             break;
 
+        //Something went wrong
         default:
             cout << "Invalid question type: " << mathType << endl;
-            cout << "program ended with an error -1" << endl;
-            cout << "Please report this error" << endl;
-            return 1;
+            cout << "Program ended with an error -1" << endl;
+            cout << "Please report this error to Debbie Johnson" << endl;
+            return -1;
     }
 
     // Ask the user a question
-    cout << userName << ", what is" << leftNum << mathType << rightNum << "?";
+    cout << userName << ", what is" << " " << leftNum << " " << mathSymbol << " " << rightNum << " = ?" << endl;
+    cout << endl;
+
     cin >> userAnswer;
+    cout << endl;
+
+    //Check answer
     if (userAnswer == correctAnswer) {
         // Code to use if the answer is correct
-        cout << "good job!" << endl;
+        cout << userName << ",that is correct!" << endl;
+        cout << "Good job!" << endl;
     } else {
         // Code to use if the answer is wrong
-        cout << "wrong answer!" << endl;
+        cout << "Wrong answer! The correct answer was" << correctAnswer << " " << endl;
     }
+    cout << endl;
+
     cout << "Thanks for playing!" << endl;
-    cout << "This is all the program does" << endl;
+    cout << "This is all the program does for now " << endl;
+    cout << "Check back for more updates." << endl;
 
     return 0;
 }
