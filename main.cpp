@@ -108,7 +108,7 @@ int main() {
         default:
             cout << "Invalid question type: " << mathType << endl;
             cout << "Program ended with an error -1" << endl;
-            cout << "Please report this error to Debbie Johnson" << endl;
+            cout << "Please report this error to Terry Hofaker" << endl;
             return -1;
     }
 
