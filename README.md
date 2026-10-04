@@ -47,10 +47,15 @@ The program:
 - Cin & Cout
 - User-friendly interface
 - Basic math operations
-- switch
-- srand(time(0))
-- if & else 
-
+- Random number generation using rand()
+- Seeding the random number generator using srand(time(0))
+- Modulus operator (%)
+- switch statements
+- case, break and default
+- if and else statements
+- Using a temporary variable to swap values
+- Checking user input against the correct answer
+- Exit statuses (return 0 and return -1)
 
 ## Console Output Testing Examples 
 ### If the input answer is correct
