@@ -1,5 +1,5 @@
-CSC150 Peer Review(2) \- Tiquan Palmer  
-Your Name: Tiquan Palmer  
+MathTutorV2 Peer Review 
+Tiquan Palmer  
 Teammate(s) Name: Terry Hofaker, Carmela Egbuonu  
 Assignment: Math Tutor V2
 
