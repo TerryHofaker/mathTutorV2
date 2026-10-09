@@ -60,7 +60,7 @@ int main() {
 
     //Get the user's name
     cout << "What is your name? " << " ";
-    cin >> userName;
+    getline(cin , userName);
     cout << endl;
 
     //Welcome the user
